@@ -1,0 +1,37 @@
+.transactionHistory {
+  margin: 30px;
+  box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(93, 162, 218);
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  width: 100px;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid rgb(204, 201, 201);
+}
+
+.type {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+td {
+  font-weight: 400;
+  color: gray;
+}
+
+.tableItem:nth-child(even) {
+  background-color: rgb(224, 223, 224);
+}

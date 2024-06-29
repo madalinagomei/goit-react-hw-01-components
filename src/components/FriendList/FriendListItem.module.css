@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+}
+
+.item span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.avatar {
+  width: 60px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.offline {
+  background-color: red;
+}
+
+.online {
+  background-color: green;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: 500;
+}
